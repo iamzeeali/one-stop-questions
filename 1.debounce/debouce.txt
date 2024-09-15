@@ -1,0 +1,5 @@
+In technical terms, Debouncing is a programming technique that helps to improve the performance of web applications by limiting the frequency of function calls. (think of this as something like a rate limiter)
+In general, Debouncing is a way of delaying the execution of a function until a certain amount of time has passed since the last time it was called. This can be useful for scenarios where we want to avoid unnecessary or repeated function calls that might be expensive or time-consuming.
+
+Example Use Case: Search Input
+When a user types in the search box, you want to fetch search suggestions based on the input. Debouncing ensures that the search function is called only after the user stops typing for a short period, rather than on every key press.

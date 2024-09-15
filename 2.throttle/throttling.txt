@@ -1,0 +1,10 @@
+Throttling is another technique used to limit the rate at which a function is executed. 
+Unlike debouncing, which delays execution until a specified period of inactivity,
+throttling ensures that the function is executed at most once in a specified interval.
+
+Example:
+Let's say you have a function that fetches some data from an
+API every time the user scrolls the page, you might want to throttle it so that it only makes one request every second, instead of making hundreds of requests as the user scrolls. This way, we can avoid overloading the server with unnecessary requests.
+
+Implementation:
+We can achieve throttling in javascript using a timer function such as setTimeout. The timer function can be used to enforce a delay between calls to the throttled function, allowing it to be called only once within the specified time period.

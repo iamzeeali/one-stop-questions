@@ -1,4 +1,0 @@
-Debouncing is a way to make sure a function runs only once after a set amount of time has passed without any new events. It’s helpful for events that happen often, like scrolling or typing, to avoid running the function too many times and to boost performance.
-
-Example Use Case: Search Input
-When a user types in the search box, you want to fetch search suggestions based on the input. Debouncing ensures that the search function is called only after the user stops typing for a short period, rather than on every key press.
